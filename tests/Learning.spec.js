@@ -7,4 +7,6 @@ test("Handling dynamic drop down",async({page})=>
     await departSearch.clear();
     await departSearch.pressSequentially("New", {delay:1000});
     await page.locator("div[class='MuiBox-root css-134xwrj'] >> text=New Haven").nth(0).click();
+
+    //new branch
 });
