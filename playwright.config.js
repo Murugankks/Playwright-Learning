@@ -32,7 +32,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     ignoreHTTPSErrors: true,
-    headless: true, // optional
+    headless: false, // optional
     // args: ['--disable-http2'], // optional workaround
   },
 
